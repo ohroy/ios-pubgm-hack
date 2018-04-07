@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 #import <mach-o/dyld.h>
-NSUInteger value;
+NSUInteger value = 1;
 @interface IOSViewController : UIViewController{
 
 }
